@@ -11,10 +11,10 @@ teams and organizations, you shouldn't stick to it for the sake of it:
 # 2. Code Lay-Out
 ***
 ## 2.1 Code Indentation
-- Aligned with opening delimiter:
+- Aligned with opening delimiter
 ```
 foo = long_function_name(var_one, var_two,
-					 var_three, var_four)
+						 var_three, var_four)
 ```
 - More indentation to distinguish
 ```
