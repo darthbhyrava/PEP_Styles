@@ -47,10 +47,10 @@ def long_function_name(
 	var_four):
 	print(var_one)
 ```
-### If_ statements
+### _If_ statements
 The `if (` is 4 spaces long, hence visual confusion with 
 the next line. Multiple ways to deal with this are: 
-- No extra charge
+- No extra indentation
 ```
 if (this is one line
     and this another)
@@ -65,6 +65,8 @@ if (this_is_one_thing and
     do_something()
 ```
 - Add some extra indentation on the conditional continuation line.
+```
 if (this_is_one_thing
         and that_is_another_thing):
     do_something()
+```
