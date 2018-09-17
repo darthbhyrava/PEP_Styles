@@ -11,21 +11,21 @@ teams and organizations, you shouldn't stick to it for the sake of it:
 # 2. Code Lay-Out
 ***
 ## 2.1 Code Indentation
-	- Aligned with opening delimiter:
-	```
-	foo = long_function_name(var_one, var_two,
-							 var_three, var_four)
-	```
-	- More indentation to distinguish
-	```
-	def long_function_name(
-			var_one, var_two, var_three,
-			var_four):
-		print(var_one)
-	```
-	- Hanging indents should add a level
-	```
-	foo = long_function_name(
-		var_one, var_two,
-		var_three, var_four)
-	```
+- Aligned with opening delimiter:
+```
+foo = long_function_name(var_one, var_two,
+						 var_three, var_four)
+```
+- More indentation to distinguish
+```
+def long_function_name(
+		var_one, var_two, var_three,
+		var_four):
+	print(var_one)
+```
+- Hanging indents should add a level
+```
+foo = long_function_name(
+	var_one, var_two,
+	var_three, var_four)
+```
