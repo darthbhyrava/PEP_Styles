@@ -9,7 +9,7 @@ teams and organizations, you shouldn't stick to it for the sake of it:
 
 # 2. Code Lay-Out
 ## 2.1 Code Indentation
-Dealing with indentation in more general cases: 
+### General Indentation 
 - Aligned with opening delimiter
 ```
 foo = long_function_name(var_one, var_two,
@@ -47,7 +47,8 @@ def long_function_name(
 	var_four):
 	print(var_one)
 ```
-In _if_ statements, the `if (` is 4 spaces long, hence visual confusion with 
+### If_ statements
+The `if (` is 4 spaces long, hence visual confusion with 
 the next line. Multiple ways to deal with this are: 
 - No extra charge
 ```
