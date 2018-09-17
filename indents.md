@@ -1,5 +1,4 @@
 # 1. Consistency
-***
 "A foolish inconsistency is the hobgoblin of little minds."
 While consistency is desirable across functions, modules, packages, projects,
 teams and organizations, you shouldn't stick to it for the sake of it:
@@ -9,7 +8,6 @@ teams and organizations, you shouldn't stick to it for the sake of it:
 	- don't compromise on code compatibility
 
 # 2. Code Lay-Out
-***
 ## 2.1 Code Indentation
 - Aligned with opening delimiter
 ```
@@ -28,4 +26,23 @@ def long_function_name(
 foo = long_function_name(
 	var_one, var_two,
 	var_three, var_four)
+```
+- Hanging indents have spaces optional for the 'hanging' part
+```
+foo = long_function_name(
+  var_one, var_two,
+  var_three, var_four)
+```
+__DO NOT:__
+- Put arguments on first line forbidden when not using vertical alignment
+```
+foo = long_function_name(var_one, var_two,
+	var_three, var_four)
+```
+- Forget to use extra indentation when not evident
+```
+def long_function_name(
+	var_one, var_two, var_three,
+	var_four):
+	print(var_one)
 ```
