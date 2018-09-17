@@ -21,8 +21,7 @@ def long_function_name(
 		var_four):
 	print(var_one)
 ```
-- Hanging indents should add a level
-<span style="color:red">*Ding*</span>
+- Hanging indents should add a level (__IT'S__)
 ``` 
 foo = long_function_name(
 	var_one, var_two,
